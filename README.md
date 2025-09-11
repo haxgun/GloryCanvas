@@ -11,52 +11,35 @@
 
 ![Preview](https://i.imgur.com/TpExAUW.png)
 
-<h2 align="center">🤔 Where to start?</h2> 
+<h2 align="center">🤔 Where to start?</h2>
 
-1. Install pipenv
+## 📦 Requirements
+
+To run app, you need to have these dependencies installed:
+
+- **Python 3.12+**: Core programming language for the backend
+- **Package Manager**: [**uv**](https://github.com/astral-sh/uv) - Ultra-fast Python package manager written in Rust
+
+---
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/haxgun/GloryCanvas.git
    ```
-   pip install --user pipenv
+2. Create virtual environment (optional but recommended):
+   ```bash
+   uv venv
    ```
-2. Install packages for correct operation
-   ```
-   pipenv install
-   ```
-3. Run Flask application
-   ```
-   pipenv run flask run
+3. Install dependencies:
+
+   ```bash
+   uv pip install -r pyproject.toml
    ```
 
-<h2 align="center">⚙️ Installed Packages</h2> 
+4. Launch the application:
 
-```
-cssmin==0.2.0
-Flask-Assets==2.0
-├── Flask [required: >=0.8, installed: 2.3.2]
-│   ├── blinker [required: >=1.6.2, installed: 1.6.2]
-│   ├── click [required: >=8.1.3, installed: 8.1.6]
-│   ├── itsdangerous [required: >=2.1.2, installed: 2.1.2]
-│   ├── Jinja2 [required: >=3.1.2, installed: 3.1.2]
-│   │   └── MarkupSafe [required: >=2.0, installed: 2.1.3]
-│   └── Werkzeug [required: >=2.3.3, installed: 2.3.6]
-│       └── MarkupSafe [required: >=2.1.1, installed: 2.1.3]
-└── webassets [required: >=2.0, installed: 2.0]
-jsmin==3.0.1
-libsass==0.22.0
-Pillow==10.0.0
-steam==1.4.4
-├── cachetools [required: >=3.0.0, installed: 5.3.1]
-├── pycryptodomex [required: >=3.7.0, installed: 3.18.0]
-├── requests [required: >=2.9.1, installed: 2.31.0]
-│   ├── certifi [required: >=2017.4.17, installed: 2023.7.22]
-│   ├── charset-normalizer [required: >=2,<4, installed: 3.2.0]
-│   ├── idna [required: >=2.5,<4, installed: 3.4]
-│   └── urllib3 [required: >=1.21.1,<3, installed: 2.0.3]
-├── six [required: >=1.10, installed: 1.16.0]
-└── vdf [required: >=3.3, installed: 3.4]
+```bash
+uv run main.py
 ```
 
-<h2 align="center">📋 TODO</h2>
-
-- [ ] Add support for multiple languages
-- [ ] Add support for Steam 64 ID, etc
-- [ ] Add error handling on the site
+---
