@@ -1,5 +1,5 @@
-<h1 align="center">GloryCanvas</h1>
-<p align="center">
+# GloryCanvas
+<p>
   <img src="https://img.shields.io/badge/Flask-2.3.2-informational.svg">
   <img src="https://img.shields.io/badge/Steam-1.4.4-informational.svg">
  <a href="https://github.com/MAGICXcmd/GloryCanvas/blob/main/LICENSE">
@@ -7,11 +7,11 @@
  </a>
 </p>
 
-<p align="center">A small web application that provides Dota 2 player statistics in the form of a card.</p>
+A small web application that provides Dota 2 player statistics in the form of a card.
 
 ![Preview](https://i.imgur.com/TpExAUW.png)
 
-<h2 align="center">🤔 Where to start?</h2>
+# Setup Project</h2>
 
 ## 📦 Requirements
 
